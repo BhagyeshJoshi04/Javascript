@@ -20,22 +20,22 @@ a=null;
 console.log(a);
 console.log(typeof a);
 
-// // number
-// var num=10;
-// console.log(num);
-// var float=2.4;
-// console.log(float);
+// number
+var num=10;
+console.log(num);
+var float=2.4;
+console.log(float);
 
-// //boolean
-// var t=true;
-// var f=false;
-// console.log(t);
-// console.log(f);
+//boolean
+var t=true;
+var f=false;
+console.log(t);
+console.log(f);
 
-// //string 
-// // ' '," ",` `
-// // single quotes,double quotes,backtick
-// var str='a';
-// console.log(typeof str);
-// str="How you doin ?"
-// console.log(str);
+//string 
+// ' '," ",` `
+// single quotes,double quotes,backtick
+var str='a';
+console.log(typeof str);
+str="How you doin ?"
+console.log(str);
