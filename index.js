@@ -49,3 +49,31 @@ console.log(b);
 
 var num=50;
 console.log(`half of ${num} is ${num/2}`);
+
+// var has some problem
+
+// 1) redeclaration is allowed
+var r="hello"
+console.log(r);
+
+var r=100;
+console.log(r)
+
+// overcome karne ke liye 
+// let keyword is used 
+
+let l= 100;
+console.log(l)
+
+// let l="hi"  //SyntaxError: Identifier 'l' has already been declared
+// console.log(l)
+
+// we can reinitialize but we can not redeclare it
+l=300
+console.log(l)
+
+// na hi redeclare na re initialize 
+const x=2
+console.log(x)
+//const x ="hello"
+x=8 //TypeError: Assignment to constant variable.
