@@ -76,4 +76,18 @@ console.log(l)
 const x=2
 console.log(x)
 //const x ="hello"
-x=8 //TypeError: Assignment to constant variable.
+// x=8 //TypeError: Assignment to constant variable.
+
+
+// loops in js
+
+var num=10;
+
+for(var i=0;i<num;i++)
+{
+    if(i%2==0)
+    {
+        console.log("num is even");
+    }
+}
+
